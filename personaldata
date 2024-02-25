@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Set character set and viewport for responsiveness -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Set the title of the document -->
+    <title>Your Name - Portfolio</title>
+    <!-- Define internal styles using CSS -->
+    <style>
+        /* Reset some default styles for the body */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: gray;
+        }
+
+        /* Style for the header section */
+        header {
+            border-style: solid;
+            border-color: black;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Style for the main content section */
+        section {
+            margin-top: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Style for heading level 2 within the section */
+        section h2 {
+            color: #333;
+        }
+
+        /* Style for the image with class 'von' */
+        .von {
+            border-style: solid;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 25%;
+            border-radius: 15%;
+        }
+
+        /* Style for each project in the section */
+        .project {
+            border-style: solid;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            background-color: whitesmoke;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Media query for smaller screens */
+        @media only screen and (max-width: 600px) {
+            section {
+                padding: 20px;
+            }
+
+            .project {
+                padding: 10px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header section with a welcome message -->
+    <header>
+        <h1>Welcome to My Personal Information</h1>
+    </header>
+
+    <!-- Main content section -->
+    <section>
+        <!-- Image of the person with class 'von' -->
+        <img class="von" src="von.JPG">
+
+        <!-- Project section containing information about the person -->
+        <div class="project">
+            <h3>About me</h3>
+            <!-- Personal description using emphasis tag -->
+            <p><em>Hi, I'm Von Asley G. Malillos, I live in Brgy. San Pablo Santo. Tomas Batangas, 20 years old. I am a student in Laguna State Polytechnic University who likes playing guitar, online games, and basketball.</em></p>
+        </div>
+
+        <!-- Project section containing educational background -->
+        <div class="project">
+            <h3>Education</h3>
+            <!-- List of educational institutions and years attended -->
+            <p><li><em>(2010-2016)  San Pablo Elementary School<br><li>(2016-2020) St. Thomas Academy JHS<br><li>(2020-2022) St. Thomas Academy SHSA<br><li>(2022-Present) Laguna State Polytechnic University</em></p>
+        </div>
+
+        <!-- Project section containing skills information -->
+        <div class="project">
+            <h3>Skills</h3>
+            <!-- List of skills using emphasis tag -->
+            <p><em><li>C# Language<br><li>Java Language<br><li>HTML </em></p>
+        </div>
+
+        <!-- Project section containing contact information -->
+        <div class="project">
+            <h4>Contact Information</h4>
+            <!-- Contact details with emphasis and a link to Facebook profile -->
+            <p><em><li>Contact Number: 09997755838<br><li>Email: 0322-1829@lspu.edu.ph<br><li>Facebook: <a href="https://www.facebook.com/MalillossssssssssssVonnnnnnn09/about">Von Asley Malillos</a></em></p>
+        </div>
+    </section>
+
+</body>
+</html>
